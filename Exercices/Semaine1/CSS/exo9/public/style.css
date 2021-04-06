@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    padding: 5px;
+}
+
+.class1 {
+    color: blue;
+}
+
+#p1 {
+    color: blueviolet;
+}
+
+#para {
+    background-color: red;
+    font-size: xx-large;
+}
+
+h2 {
+    color: blue;
+}
+
+h4 {
+    color: black;
+}
+
+#ul1 {
+    font-style: italic;
+}
+
+#ol1 {
+    font-style: italic;
+}
+
+#joursem {
+    font-style: bold;
+    text-decoration: underline;
+}
