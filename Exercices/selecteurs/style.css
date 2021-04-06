@@ -1,0 +1,29 @@
+/* le combinateur "+" sélectionne le voisin direct de l'élément demandé : ici, on part de ul et on va chercher le premier h1 après ul grâce au + */
+/* ul+h3{
+    color: springgreen;
+} */
+
+/* le combinateur ">" sélectionne les enfants et petits-enfants de l'élément demandé : ici, on part de ul et on va chercher les enfants et petits-enfants ul grâce au > */
+/* ul>li{
+    color: red;
+} */
+
+/* le combinateur " " similaire au > */
+/* ol li{
+    color: green;
+} */
+
+/* le combinateur "," sélectionne tous les éléments A et tous les éléments B : ici, on sélectionne tous les h1 et tous les h2 */
+/* h1,h2{
+    color: blue;
+} */
+
+/* ul:first-child{
+    color: brown;
+}
+ul:last-child{
+    color: chartreuse;
+} */
+ul:nth-child(2)>:first-child{
+    color: red;
+}
