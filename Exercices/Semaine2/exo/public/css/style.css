@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h2:active {
+    color: coral;
+}
+
+input:focus {
+    color: crimson;
+}
