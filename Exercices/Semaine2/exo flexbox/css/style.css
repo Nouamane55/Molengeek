@@ -1,0 +1,21 @@
+.main{
+    border: brown solid 3px;
+    height: 500px;
+    display: flex;
+    /* pour bouger surl'axe horizon */
+    justify-content: center;
+    /* pour le bouger sur l'axe vertical*/
+    align-items: center;
+}
+.div{
+    border: tomato 2 px;
+    width: 45%;
+    display: flex;
+    
+}
+.secondary{
+    border: chartreuse solid 3px; 
+    height: 150px;
+    width: 200px;
+}
+
