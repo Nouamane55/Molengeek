@@ -1,0 +1,41 @@
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px;
+    border-bottom: solid black;
+}
+
+section:first-child>h4 {
+    color: blue;
+}
+
+section:nth-child(2) {
+    border-bottom: solid red 5px;
+}
+
+section:nth-child(3)>h3, section:nth-child(3)>ul {
+    color: red
+}
+
+/* exo4 */
+
+section:nth-child(4)>ul>:nth-child(2)>a {
+    font-size: 25px;
+}
+
+/*Exo5  */
+
+section:nth-child(5)>h3+span {
+    color: blue;
+}
+
+/* Exo6 */
+section:nth-child(6)>img{
+border:solid black 5px; 
+border-radius: 50%;
+}
+/* Exo7 */
+section:nth-child(7)>p:hover{
+    color: green;
+}
+
+/* EXO NEED PUSH  */
