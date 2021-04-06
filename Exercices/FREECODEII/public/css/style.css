@@ -62,4 +62,21 @@ div {
 ul {
     margin: 0;
     padding: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.main-content{
+    background: #f3f;
+    padding: 0 32px;
+}
+.ttle{
+    color: red;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
