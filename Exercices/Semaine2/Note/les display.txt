@@ -1,0 +1,28 @@
+Display par default
+
+SPAN ET P 
+
+SPAN 
+
+DISPLAY IN BLOCK 
+continue en block (width100%)
+
+P 
+DISPLAY inLINE 
+s'arrete a la ligne
+
+
+        -----------------------------------------------------------------------------------
+
+DISPLAY :FLEX
+ 
+DIV par default
+
+ELEMENT QUI BOUGE 
+
+
+DISPLAY :NONE
+
+(visibility:hidden)
+
+

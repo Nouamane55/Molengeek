@@ -1,0 +1,72 @@
+25/01/2021
+
+15:33:54
+
+1695065506	
+Mistercash
+
+Numéro de référence: 1695065244
+
+250.00
+25/01/2021
+
+15:19:55
+
+1695058809	
+Mistercash
+
+Numéro de référence: 1695058604
+
+250.00
+
+
+HTML
+
+les balises meta
+bien utiliser l'attribut alt avec une image
+la signification des tags (la sémantique) et les utiliser correctement
+le fonctionnement d'un lecteur d'écran
+peut on naviguer sur mon site sans souris ?
+utiliser un doctype correct
+optimiser le chargement des fichiers externes (async, defer, preload...)
+tout écrire en minuscule
+comprendre les attributs data
+rendre les emoji accessible avec un role="img" et un aria-label
+de manière générale ne pas utiliser de vieille norme et se baser uniquement sur les nouvelles
+ne pas utiliser un placeholder comme label
+pour chaque tag que tu utilises vérifie les attributs disponible sur MDN Mozilla
+CSS
+
+Sois consistant dans ton style
+utiliser un reset (sanitize.css par exemple)
+commencer par le HTML et ensuite le CSS
+utiliser et mixer plusieurs petites class plutôt que d'avoir des méga class
+utiliser les raccourcis (on peut définir l'ensemble des marges uniquement avec la propriétés margin par exemple)
+les raccourcis utilisent toujours le sens des aiguilles d'une montre (top, right, bottom, left)
+comprendre la différence entre block et inline
+compresser ton CSS (CSS minifier, Parcel...)
+avant de passer directement à JavaScript demande toi si tu ne peux pas le faire en CSS
+comprendre les em et les rem pour les utiliser à la place des pixels
+n'ai pas peur d'ajouter beaucoup d'espace blanc
+Flexbox et CSS Grid devraient changer ta vie (laisse tomber la grille Bootstrap)
+JavaScript
+
+reduce()
+map()
+filter()
+this
+argument object
+sélectionner un élément dans le DOM
+gérer les événement (cliques, clavier...)
+pop(), shift(), unshift(), push() et surtout ce qu'ils retournent
+immutabilité
+recursion et tail recursion
+modifier le style
+créer un élément HTML
+modifier un attribut
+injecter du HTML
+modifier des chaînes de caractères
+les Objets (keys, every, hasOwnProperty)
+transformer un objet en tableau
+boucler dans un objet
+et encore reduce() pour être sûr

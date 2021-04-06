@@ -1,0 +1,116 @@
+/home
+/home/etudiant/fichier_john/cours
+/tmp
+/etc/firefox
+/bin
+/home/etudiant/fichier_bob/musiques
+
+/home/etudiant/fichier_john/cours/reseaux/intro_reseaux.pdf
+/home/etudiant/fichier_bob/films/inception.avi
+/etc/firefox/sysprefs.js
+/lib
+/home/etudiant/fichier_john/cours/java
+
+
+
+cd /home/etudiant/fichier_bob/musiques
+mkdir techno 
+
+/home/eutudiant /fichier de john / cours 
+mkdir analyses
+/home/etudiant/fichier de bob /films 
+mkdir drames
+mkdir comédies 
+/home/etudiant/fichier de john cours / burautique 
+mkdir word 
+mkdir excel
+/fichier bob /musiques 
+mkdir -p HipHop/2010
+/fichier john /backups 
+mkdir -p gestion/comptabilite/factures
+fichierjohn/ cours /java 
+mkdir -p programme/jeu doc/jeux 
+
+/home/etudiant/fichier_john/cours/reseaux/
+touch reseaux_cours2.txt
+/home/etudiant/fichierbob/films 
+touch listeFilms
+rm -rf happy.wav
+/home/etudiant/fichier_bob
+mkdir test
+rm -rf test
+rm -rf musiques
+
+
+/... reseaux /
+cp - r intro_reseaux  back up
+mv intro_reseaux../reseaux../ backups
+
+
+EXO 2 
+$
+
+
+exo 9
+git bash terminal 
+Je vous fais un récap des commandes git vues jusqua présent :
+
+2
+[14:56]
+DANS UN NOUVEAU PROJET
+[14:56]
+1. je fais git init pour initialiser un repository vide
+
+13
+[14:57]
+2. je fais git add --all pour cibler les données à sauvegarder
+
+13
+[14:59]
+3. je fais git commit -m"un message" pour ajouter un message à ma sauvegarde et compléter ma sauvegarde (après un add --all on fait tjs un commit)
+
+13
+[14:59]
+4. je vais créer un repository sur GitHub(modifié)
+
+10
+[15:01]
+5. je copie les lignes du point  2 (ça ressemble à ça : 
+git remote add origin https://github.com/Utilisateur/monRepo.git
+git branch -M main
+git push -u origin main)(modifié)
+
+13
+[15:01]
+6. je les colle dans le terminal de mon projet
+
+12
+[15:02]
+7. j'exécute et TADAAAAAAH
+
+9
+
+4
+
+1
+[15:02]
+8. si je veux re push des données dans mon git hub, je resauvegarder avec add --all et commit et je fais 
+git push origin main
+
+5
+
+1
+Pour avoir un historique de mes sauvegarde je fais git log
+
+3
+[15:12]
+9. Pour revenir à un numéro de commit précédent je fais git checkout numerodecommit
+NOUVEAU
+[15:12]
+10. Pour revenir à la version le plus récente enregistrée je fais git checkout main
+
+
+
+
+
+

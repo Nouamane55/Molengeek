@@ -1,0 +1,70 @@
+HTML  = Structure 
+
+La structure d'une balise 
+Balise p paragraphe 
+<p>Je suis un paragraphe ecrit en html</p> 
+
+Head ! 
+
+Body ! 
+
+Doctype précisé quel language est utlisé 
+
+Balise H1 le plus grand titre 
+
+ 
+nouvelle balise des listes 
+
+Liste ordonnées,  non ordonnées 
+Balise  UL non ordonéee 
+placement de <li> 
+pastille
+ 
+Balise OL Ordonées chiffre <li>
+Liste item LI 
+
+selon le type de balise 
+
+
+Balise stylisantes 
+notre style de l'html 
+<hr> création d'une ligne de séparation 
+<B> & <strong> Permet de mettre le texte en gras 
+<i> Permet d'inclure une icone 
+<em> texte en italique 
+balise "tr"
+
+1
+[14:19]
+balise "img"
+
+1
+[14:20]
+balise "div"
+
+1
+[14:20]
+balisi "table"
+
+1
+[14:20]
+balise "a"
+
+1
+
+SeifedinAujourd’hui à 14:25
+j'ai la balise mark/del/ins/q
+
+les attribut universel
+class 
+hidden
+attribut spécifique 
+target 
+src
+balise <span> 
+
+id #
+
+{
+
+. pour les class
