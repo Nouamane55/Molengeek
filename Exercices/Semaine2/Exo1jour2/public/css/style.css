@@ -22,3 +22,6 @@ section{
 section>div>:first-child{
 flex-basis: 50px;
 }
+body{
+    margin: 0;
+}

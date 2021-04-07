@@ -1,0 +1,52 @@
+.header {
+    
+    background-color: rgb(168, 112, 112);
+}
+
+.uno {
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.deux {
+    border: 1px solid black;
+    display: flex;
+    height: 200px;
+    width:100% ;
+    display: flex;
+    text-align: center;
+}
+
+.deuxa{
+    margin-left: 40%;
+    height: 100%;
+    width: 100px;
+    border-right: solid black 1px;
+}
+    
+    .trois{
+        border: 1px solid black;
+        display: flex;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .quatro{
+
+        border: 1px solid black;
+        display: flex;
+        height: 250px;
+        width: 100% ;
+        justify-content: space-between;
+
+    }
+     div>:first-child{
+        flex-direction: column;
+    }
