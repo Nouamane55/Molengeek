@@ -103,7 +103,7 @@ input:focus {
 }
 
 .transition_07:active {
-    margin: 80%;
+    margin-left: 80%;
     transition: ease-out;
 }
 
@@ -119,10 +119,10 @@ input:focus {
 }
 
 .transition_08:active {
-   margin: 80%;
+    margin-left: 80%;
     border-radius: 50%;
     background-color: purple;
-    transition: ease-out ;
+    transition: ease-out;
     height: 50px;
 }
 
@@ -157,19 +157,27 @@ input:focus {
 /* début exo 10 les transitions */
 
 .transition_10 {
-    background: color yellow;
+    background-color: yellow;
     height: 150px;
     width: 150px;
-    transition: 3s;
+    transition: 5s;
 }
 
 .transition_10:active {
-    transition: ease;
-    animation: cubic-bezier(1, 0, 0, 1);
-    background-color: burlywood;
+    border-radius: 50%;
+    margin-left: 600px;
+    
+} 
+.transition_10_intrus{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: 5s;
+}
+.transition_10:active .transition_10_intrus{
+    border-radius:0%;
+    margin-left: 150px;
 }
 
-.transition_10_instrus {
-    background: blue;
-    }
-    /* fin exo 10 les transitions */
+/* fin exo 10 les transitions */
