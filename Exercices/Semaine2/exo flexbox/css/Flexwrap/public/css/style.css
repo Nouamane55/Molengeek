@@ -1,0 +1,21 @@
+.main{
+    width: 350px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+}
+.secondary{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+.tertiary{
+    justify-content: space-evenly;
+    
+}
+/* syntax ordre */
+div#myred4{
+ order: 1;   
+ flex-direction: column;
+}
+

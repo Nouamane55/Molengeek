@@ -5,7 +5,7 @@
     /* pour bouger surl'axe horizon */
     justify-content: center;
     /* pour le bouger sur l'axe vertical*/
-    align-items: center;
+    
 }
 .div{
     border: tomato 2 px;
@@ -14,8 +14,18 @@
     
 }
 .secondary{
-    border: chartreuse solid 3px; 
+    border: solid rgb(144, 48, 24) 100px; 
     height: 150px;
     width: 200px;
+    justify-content: last baseline;
+    
+}
+.tertiary{
+    border: solid yellow;
+    height: 150px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
