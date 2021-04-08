@@ -1,0 +1,62 @@
+section{
+    max-width: max-content;
+    position: relative;
+}
+/* Exo 1 */
+
+#exo1>h1::before {
+    content: "";
+    background-color: red;
+    height: 3px;
+    bottom: 0;
+    position: absolute;
+    width: 0%;
+    transition: 1s;
+    
+}
+#exo1>h1:hover::before{
+   width: 100%;
+
+}
+
+    
+    
+    
+
+
+/* fin Exo 1 */
+
+/* Exo 2 */
+#exo2>h1::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 50%;
+    bottom: 0%;
+    height: 3px;
+    background-color: seagreen;
+    transition: 1s;
+}
+#exo2>h1:hover::before{
+    left: 0%;
+    width: 100%;
+}
+/* fin Exo 2 */
+
+/* Exo 3 */
+#exo3>h1::before{
+    content: "";
+    position: absolute;
+    bottom:0;
+    height: 0;
+    width: 100%;
+    transition: 1s;
+    background-color: tomato;
+    z-index: -1;
+
+
+}
+#exo3>h1:hover::before{
+height: 100%;
+}
+/* fin Exo 3 */

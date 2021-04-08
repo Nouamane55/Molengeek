@@ -1,0 +1,20 @@
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 1px solid black;
+  background: red;
+ 
+}
+div:nth-child(2n){
+background-color: red;
+}
+
+h2 {
+  margin: 100px;
+  font-size: 50px;
+  color: green;
+  animation: myBounce 0.5s infinite alternate ;
+  position: relative;
+}
+

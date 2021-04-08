@@ -1,0 +1,47 @@
+div {
+  animation-duration: 3px;
+  animation: poplocking 5s infinite;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+  position: relative;
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes poplocking {
+  0% {
+    background-color: red;
+    margin-left: 300px;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: red;
+  }
+  75% {
+    background-color: hotpink;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes myBounce {
+  from {
+    transform: scaleY(1);
+    transform: scaleX(2);
+    transform-origin: 0,0;
+    bottom: 0px ;
+  }
+  to {
+    transform: scaleY(2);
+    transform: scaleX(1);
+    transform-origin: 0,0;
+    bottom: 100px ;
+  }
+}
