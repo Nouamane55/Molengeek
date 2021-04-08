@@ -32,13 +32,16 @@ section {
   border-radius: 40%;
 }
 
+div{
+  display: block;
+}
 nav {
-  display: flex;
-  text-align: center;
+  display: block;
+
 }
 
 nav>div {
-  display: flex;
+  
   position: relative
 }
 
@@ -62,17 +65,21 @@ nav>.logo{
   margin-bottom: 10px;
   border-bottom: solid 2px gray;
   border-right: solid 2px gray;
+  float: left;
 }
 
-nav {
-  justify-content:first baseline;
-  width: 100%;
+ nav {
+    
   display: flex;
+  width: 100%;
+  float: left;
   align-items: center;
   position: fixed;
-}
+  text-align: center;
+} 
 
 .menu {
+  position: relative;
   margin-left: 150px;
   display: inline-block;
 }
@@ -85,6 +92,26 @@ nav {
 footer {
   display: flex;
   padding: 60px 0;
-  margin-bottom: 59px;
+  margin-bottom: 0;
   background-color: rgb(105, 95, 95);
+  height: 200px;
+}
+ul:first-child{
+  display: flex ;
+}
+
+li:nth-child(8)>a{
+  border-bottom: solid 1px gray;
+  height: 100px;
+  width: 300px;
+}
+button{
+  border-color: green;
+  border-radius: 10%;
+}
+section>h1{
+  font-size: xx-large;
+  margin-top: 100px;
+  margin: 1em;
+  justify-content: center;
 }
