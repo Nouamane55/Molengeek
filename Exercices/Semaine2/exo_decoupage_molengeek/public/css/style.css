@@ -1,0 +1,90 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+#newsletter {
+  background-color: purple;
+  height: 50px;
+  display: flex;
+}
+
+#newsletter img {
+  width: 50px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+#champs_newsletter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-left: 600px;
+  padding-top: 15px;
+  border-radius: 40%;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+}
+
+nav>div {
+  display: flex;
+  position: relative
+}
+
+#contenu {
+  display: flex;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  justify-content: end;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+nav>.logo{
+  
+  width: 400px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px gray;
+  border-right: solid 2px gray;
+}
+
+nav {
+  justify-content:first baseline;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.menu {
+  margin-left: 150px;
+  display: inline-block;
+}
+
+#contenu {
+  display: inline-block;
+  padding-top: 150px;
+}
+
+footer {
+  display: flex;
+  padding: 60px 0;
+  margin-bottom: 59px;
+  background-color: rgb(105, 95, 95);
+}
