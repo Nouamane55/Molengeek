@@ -54,7 +54,7 @@ nav {
   height: 100px;
   justify-content: center;
   width: 100%;
-  margin-right: 100%;
+
   padding-top: 122px;
   margin-top: 0;
   
@@ -93,7 +93,7 @@ nav {
 }
 
 footer {
-  display: flex;
+  
   padding: 60px 0;
   margin-bottom: 0;
   background-color: rgb(105, 95, 95);
@@ -133,8 +133,5 @@ footer>section:first-child{
   margin-left: 50%;
 
 }
-footer>img:first-of-type{
-  padding-top: 150px;
-  margin-top: 150px;
-}
+
 
