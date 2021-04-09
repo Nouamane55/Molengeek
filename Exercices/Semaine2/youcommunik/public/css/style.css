@@ -1,0 +1,14 @@
+nav{
+    background-color:black;
+    height: 100px;
+    width: 100%;
+}
+nav>img:first-child{
+    padding-top: 26px;
+    margin-left: 10px;
+}
+#icon{
+    display: flex;
+    justify-content: space-around;
+    
+}
