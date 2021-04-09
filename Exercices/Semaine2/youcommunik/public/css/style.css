@@ -1,14 +1,32 @@
-nav{
-    background-color:black;
+body {
+    margin: 0;
+}
+
+nav {
+    align-items: center;
+    padding: 0;
+    background-color: black;
     height: 100px;
     width: 100%;
 }
-nav>img:first-child{
+
+nav>img:first-child {
     padding-top: 26px;
     margin-left: 10px;
 }
-#icon{
+
+#icon {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    margin-left: 250px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+/* nav>#icon {} */
+
+.item1 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 0;
 }
