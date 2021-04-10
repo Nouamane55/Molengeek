@@ -19,12 +19,11 @@ nav>img:first-child {
 
 #icon {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-left: 250px;
     position: relative;
     width: 100%;
     margin-top: 20px;
-    
 }
 
 /* nav>#icon {} */
@@ -37,17 +36,19 @@ nav>img:first-child {
 
 /* etape1undernav */
 
-.undernav{
+.undernav {
     display: flex;
-background-color: rgb(91, 89, 102);
-height: 200px;
-width: 100%;
+    background-color: rgb(91, 89, 102);
+    height: 200px;
+    width: 100%;
 }
-.pak{
+
+.pak {
     margin-top: 20px;
     margin-left: 100px;
 }
-.titreban{
+
+.titreban {
     display: flex;
     width: 100%;
     font-size: 50px;
@@ -55,23 +56,23 @@ width: 100%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: silver;
-    
 }
-.etape1{
+
+.etape1 {
     display: flex;
     height: 150px;
     justify-content: center;
     margin-top: 1%;
 }
-.etape2{
+
+.etape2 {
     width: 20%;
     display: flex;
     align-items: center;
     text-align: center;
-    
 }
-.eclo{
-    
+
+.eclo {
     border: solid 1px black;
     height: 26%;
     padding: 5px;
@@ -80,39 +81,91 @@ width: 100%;
     padding-top: 20px;
     font-size: 25px;
     background-color: rgb(91, 89, 102);
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
-.etape3{
+
+.etape3 {
     display: flex
 }
-.etape4{
+
+.etape4 {
     display: flex;
     margin-left: 100px;
     padding-right: 50px;
 }
-#lor1{
+
+#lor1 {
     font-size: 25px;
     margin-left: 150px;
 }
-.etape5{
+
+.etape5 {
     background-color: rgb(241, 214, 190);
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    height: 230px;
     margin-top: 30px;
-    
 }
-.item2{
-flex-direction: column;
-text-align: center;
-justify-content: space-evenly;
-margin: auto;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.item2 {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.item2>img{
+
+.item2>img {
     height: 75px;
     width: 75px;
 }
 
+/* debut ENVOLE */
 
+.itemvisite {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -70px;
+}
+
+.itemvisite>img {
+    height: 75px;
+    width: 75px;
+}
+
+.etapevisiteur {
+    background-color: rgb(241, 214, 190);
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    border: solid black 1px;
+    width: 100%;
+    height: 200px;
+    margin-top: 0%;
+    
+}
+
+.footercontent {
+    display: block;
+    width: 100%;
+    background-color: rgb(45, 44, 47);
+    padding-top: 3%;
+}
+
+.footercontent>ul>img {
+    height: 75px;
+    width: 75px;
+}
+.footercontent>ul>p {
+    font-family: 'Roboto', sans-serif;
+   color: white;
+}
