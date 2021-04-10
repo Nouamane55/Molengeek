@@ -32,3 +32,27 @@ nav>img:first-child {
     flex-direction: column;
     color: blanchedalmond;
 }
+
+/* etape1undernav */
+
+.undernav{
+background-color: rgb(91, 89, 102);
+height: 200px;
+width: 100%;
+display: flex;
+}
+.pak{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.titreban{
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+    margin-left: 20%;
+    text-align: center;
+    
+}
+.etape1{
+    display: flex;
+}
