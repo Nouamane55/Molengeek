@@ -213,7 +213,9 @@ input[type=text] {
 }
 
 @media (min-width: 1008px) {
-    .underfooter {}
+    .underfooter {
+        padding-left: 80%;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1007px) {
@@ -229,7 +231,7 @@ input[type=text] {
     .underfooter {
         flex-direction: column;
         height: 100%;
-        width: 66%;
+        width: 100%;
     }
     .footer1 {
         flex-direction: column;
