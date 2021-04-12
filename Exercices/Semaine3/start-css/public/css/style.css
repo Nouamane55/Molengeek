@@ -87,4 +87,22 @@ nav {
     height: 100px;
     width: 100px;
 }
+.start5{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+
+}
+.gallerie{
+    display: inline;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.gallerie>div>img{
+    height: 150px;
+    width: auto;
+}
 
