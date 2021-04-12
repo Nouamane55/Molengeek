@@ -1,3 +1,4 @@
+/* nav */
 nav {
     display: flex;
     width: 100%;
@@ -28,8 +29,8 @@ nav {
     .start {
         display: flex;
         justify-content: space-between;
-        margin-left: 13%;
-        width: 20%;
+        margin-left: 17%;
+        width: 25%;
     }
     .start1 {
         margin-right: 100px;
@@ -70,3 +71,20 @@ nav {
 }
 
 /* Fin navbar media */
+
+/* undernav */
+.start3{
+    flex-direction: column;
+    text-align: center;
+    background-color: red;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-bottom: 2%;
+}
+.start3>img{
+    margin-top: 3%;
+    height: 100px;
+    width: 100px;
+}
+
