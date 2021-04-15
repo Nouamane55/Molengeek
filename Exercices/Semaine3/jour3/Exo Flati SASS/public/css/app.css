@@ -6143,22 +6143,50 @@ section {
 }
 section img {
   width: 100%;
-  height: 400px;
+  height: 435px;
 }
 
 .texte1 {
   text-align: center;
   align-items: center;
   height: 200px;
-  background-color: beige;
+  background-color: #cfcfc4;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-top: 1%;
 }
 .texte1 p {
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 1%;
+  font-size: x-large;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+  height: 275px;
+  width: 100%;
+  color: white;
+  background-color: #4368e2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+}
+footer h5 {
   padding-top: 2%;
-  font-size: large;
+  margin: 0;
+}
+footer p {
+  font-size: x-small;
+  padding-top: 1%;
+}
+footer #logo {
+  padding-top: 3%;
+}
+footer .basfoot {
+  height: 40px;
+  width: 100%;
+  background-color: #3d3855;
+  margin-top: 4%;
 }
 
 .content {
@@ -6189,7 +6217,8 @@ section img {
 .content .content1 .icons .fas {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  margin-top: 25%;
+  margin-top: 30%;
+  color: darkblue;
 }
 .content .content1 #bluecontent {
   color: blue;
@@ -6206,6 +6235,7 @@ section img {
   display: flex;
   flex-direction: column;
   width: 50%;
+  align-items: center;
 }
 .textcontent .recent1 p {
   width: 40%;
@@ -6217,11 +6247,21 @@ section img {
 }
 .textcontent .recently {
   display: flex;
-  background-color: gray;
   color: white;
+  justify-content: space-evenly;
+  width: 75%;
 }
 .textcontent .imgtext {
-  width: auto;
+  text-align: center;
+  width: 25%;
+  background-color: #31465a;
+  height: 62%;
+  margin-top: 2%;
+  border-radius: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.textcontent img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,20 +1,19 @@
-nav{
+nav {
     display: flex;
     background-color: rgb(49, 71, 94);
     height: 100px;
     justify-content: space-around;
     align-items: center;
-    div{
+    div {
         display: flex;
     }
-    p{
+    p {
         color: whitesmoke;
         width: 100px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     }
-    h1{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    h1 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
         color: whitesmoke;
     }
-    
 }
