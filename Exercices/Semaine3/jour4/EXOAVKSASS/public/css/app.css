@@ -12,8 +12,26 @@ nav div {
   width: 10%;
 }
 
-/* a rendre responsive */ 
-section {
+@media (min-width: 1008px) {
+  nav {
+    display: flex;
+    width: 100%;
+  }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
+  nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  nav {
+    align-items: baseline;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+}
+.rocks {
   background-color: blue;
   align-content: center;
   text-align: center;
@@ -23,8 +41,40 @@ section {
   color: white;
   font-size: xx-large;
 }
-section button {
+.rocks button {
   border-radius: 30%;
+}
+
+.main {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+.imgtext {
+  margin-bottom: 250px;
+  display: flex;
+  align-items: center;
+}
+.imgtext h2 {
+  flex-direction: column;
+}
+.imgtext p {
+  flex-direction: column;
+}
+.imgtext img {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .rocks {
+    display: block;
+    height: 450px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
