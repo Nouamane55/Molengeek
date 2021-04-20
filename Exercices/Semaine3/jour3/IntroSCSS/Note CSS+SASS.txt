@@ -1,0 +1,11 @@
+SASS  est un language dynamique qui genere ....
+
+NAV {
+display : flex 
+align-items: center
+
+ul 
+display:flex
+justify-content : space between
+
+
